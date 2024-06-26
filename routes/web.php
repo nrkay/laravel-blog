@@ -32,3 +32,11 @@ Route::get('/gallery', function () {
 Route::get('/activity', function () {
     return view('front-end.pages.activity');
 });
+
+Route::get('/gallerydetail', function () {
+    return view('front-end.pages.gallerydetail');
+});
+
+Route::get('/activitydetail', function () {
+    return view('front-end.pages.activitydetail');
+});
