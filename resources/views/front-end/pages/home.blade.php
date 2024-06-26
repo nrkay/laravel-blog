@@ -3,7 +3,8 @@
     <section class="section">
         <div class="container">
             <div class="title text-black text-center mb-3">
-                <h1><b><i>Selamaik</i> Datang di <i>Barando</i> Hendri Septa Padang</b></h1>
+                <h1><b><i>Selamaik</i> Datang di <i>Barando</i> </b></h1>
+                <h1><b>Hendri Septa Padang</b></h1>
             </div>
             <div class="row mt-5">
                 <div class="col-lg-6"></div>
