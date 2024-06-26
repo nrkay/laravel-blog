@@ -13,6 +13,7 @@
                         <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto ">
                             <li ><a class="" class="" href="{{ url('/') }}">Home</a></li>
                             <li ><a class="" class="" href="{{ url('/about') }}">About</a></li>
+                            <li ><a class="" class="" href="{{ url('/gallery') }}">Gallery</a></li>
                             <li><a class="" href="{{ url('/activity') }}">Activity</a></li>
                             <li><a class="" href="{{ url('/contact-us') }}">Contact Us</a></li>
                         </ul>

@@ -25,6 +25,10 @@ Route::get('/contact-us', function () {
     return view('front-end.pages.contact');
 });
 
+Route::get('/gallery', function () {
+    return view('front-end.pages.gallery');
+});
+
 Route::get('/activity', function () {
     return view('front-end.pages.activity');
 });
