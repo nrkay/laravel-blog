@@ -10,7 +10,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="favicon.png">
+	<link rel="shortcut icon" href="{{ asset('images/icon.png') }}">
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
@@ -33,7 +33,7 @@
 	<link rel="stylesheet" href={{ asset('css/flatpickr.min.css') }}>
 
 
-	<title>Blogy &mdash; Free Bootstrap 5 Website Template by Untree.co</title>
+	<title>Hendri Septa</title>
 </head>
 <body>
 

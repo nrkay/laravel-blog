@@ -3,8 +3,8 @@
 <div class="section">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-4  mb-4 mb-lg-0">
-                <div class="mx-auto">
+            <div class="col-lg-4  mb-4 mb-lg-0 d-flex justify-content-end">
+                <div class="text-center">
                     <img src="{{ asset('images/about.png') }}" alt="Image" class="img-fluid rounded w-75
                     ">
                 </div>
