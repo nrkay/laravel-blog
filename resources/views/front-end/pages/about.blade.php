@@ -2,12 +2,15 @@
 @section('content')
 <div class="section">
     <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-lg-7 mb-4 mb-lg-0">
-                <img src="{{ asset('images/about.png') }}" alt="Image" class="img-fluid rounded
-                ">
+        <div class="row justify-content-center">
+            <div class="col-lg-4  mb-4 mb-lg-0">
+                <div class="">
+                    <img src="{{ asset('images/about.png') }}" alt="Image" class="img-fluid rounded w-75
+                    ">
+                </div>
+               
             </div>
-            <div class="col-lg-4 ps-lg-2">
+            <div class="col-lg-6 ps-lg-2">
                 <div class="mb-5">
                     <h2 class="text-black h4">About</h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>

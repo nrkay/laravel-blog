@@ -5,7 +5,7 @@
                 <div class="widget">
                     <h3 class="mb-4 text-dark">Kota Padang</h3>
                     <div class="post-entry-footer">
-                       <img src="{{ asset('images/footer.png') }}" alt="">
+                       <img style="width: 80px; height: 80px;" src="{{ asset('images/footer.png') }}" alt="">
                     </div>
 
 

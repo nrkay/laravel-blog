@@ -3,32 +3,42 @@
     <section class="section">
         <div class="container">
             <div class="title text-black text-center mb-3">
-                <h1><b><i>Selamaik</i> Datang di <i>Barando</i> </b></h1>
-                <h1><b>Hendri Septa Padang</b></h1>
+                <h1><i>Selamaik</i> Datang di <i>Barando</i></h1>
+                <h1>Hendri Septa Padang</h1>
             </div>
-            <div class="row mt-5">
-                <div class="col-lg-6"></div>
-                <div class="col-lg-6 text-black">
-                    <h4><b>Hendri Septa</b></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea. </p>
+            <div style="background-color: #F2F4F7" class="row mt-5 py-5 rounded-2">
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <img class="w-50" src="{{ asset('images/home.png') }}" alt="">
+                </div>
+                <div class="col-lg-6 text-black d-flex align-items-center">
+                    <div class="">
+                        <h4><b>Hendri Septa</b></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip ex ea. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea. </p>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
     <section class="section">
         <div class="container">
-
             <div class="row mb-4">
                 <div class="col-sm-6">
                     <h2 class="posts-entry-title">Aktivity</h2>
                 </div>
                 <div class="col-sm-6 text-sm-end"><a href="{{ url('/activity') }}" class="read-more">View All</a></div>
             </div>
-
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <div class="post-entry-alt">
@@ -97,11 +107,55 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
 
+            <div class="row d-flex justify-content-center">
+                <div style="background-color: #F2F4F7" class="row col-md-8 p-5 rounded-2">
+                    <div class="">
+                        <b>
+                            <h2 class="posts-entry-title text-center">Gallery</h2>
+                        </b>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="post-entry-alt">
+                            <a href="{{ url('/gallerydetail') }}" class="img-link"><img
+                                    src="{{ asset('images/Image-4.png') }}" alt="Image" class="img-fluid"></a>
+                            <h2><a href="{{ url('/gallerydetail') }}">Image Title Example 4</a></h2>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="post-entry-alt">
+                            <a href="{{ url('/contact-us') }}" class="img-link"><img src="{{ asset('images/Image-2.png') }}"
+                                    alt="Image" class="img-fluid"></a>
+                            <h2><a href="single.html">Image Title Example 2</a></h2>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="post-entry-alt">
+                            <a href="{{ url('/contact-us') }}" class="img-link"><img
+                                    src="{{ asset('images/Image-3.png') }}" alt="Image" class="img-fluid"></a>
+                            <h2><a href="single.html">Image Title Example 3</a></h2>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="post-entry-alt">
+                            <a href="{{ url('/contact-us') }}" class="img-link"><img
+                                    src="{{ asset('images/Image-1.png') }}" alt="Image" class="img-fluid"></a>
+                            <h2><a href="single.html">Image Title Example 1</a></h2>
+                        </div>
+                    </div>
+                    <div class= "d-flex justify-content-center">
+                        <a href="{{ url('/gallery') }}"> <button class="btn btn-primary btn-sm">view more</button>
+                        </a>
+                    </div>
+                </div>
 
 
             </div>
-
         </div>
     </section>
 @endsection
