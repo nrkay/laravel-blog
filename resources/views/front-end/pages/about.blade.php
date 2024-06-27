@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4  mb-4 mb-lg-0">
-                <div class="">
+                <div class="mx-auto">
                     <img src="{{ asset('images/about.png') }}" alt="Image" class="img-fluid rounded w-75
                     ">
                 </div>
